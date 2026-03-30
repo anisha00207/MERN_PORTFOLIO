@@ -7,7 +7,7 @@ const cors = require('cors')
 
 //!cors 
 var corsOptions = {
-  origin: process.env.CLIENT_URL,
+  origin: "https://mern-portfolio-frontend-34wb.onrender.com",
   methods: "GET,POST,PUT,DELETE,PATCH,HEAD",
   credentials: true,
 }
