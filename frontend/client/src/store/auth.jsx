@@ -14,7 +14,7 @@ export const AuthProvider = ({ children }) => {
     const [testimonials, setTestimonials] = useState([]);
    
     //const [contacts,setContacts]=useState([]);
-    const Base_Url = "http://localhost:3002/api";
+    const Base_Url = "https://mern-portfolio-backend-whfa.onrender.com";
     
     //!function to set token and update state
     const storedtokenInLS = (serverToken) => {
