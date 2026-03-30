@@ -1,0 +1,209 @@
+*{
+ 
+  padding:0;
+  box-sizing: border-box;
+  
+  /* background-color: rgb(23, 23, 23);    */
+}
+.grey{
+background-color: #161616;
+}
+.black{
+background-color: #050505;
+}
+
+.description{
+  color: white;
+}
+
+.purple{
+  color: rgb(250, 222, 185);
+ 
+}
+
+.purple:hover{
+   color:rgb(113, 113, 225) ;
+
+}
+/* .purple.active {
+color:rgb(113, 113, 225) ; 
+  font-weight: bold;        
+} */
+/* .btnn{
+  padding:5%;
+  background-color: rgb(250, 207, 211); 
+               
+  border-radius:10%;
+  color:#050505
+
+}
+.btnn:hover{
+  background-color: pink;
+  color:rgb(11, 11, 11);
+} */
+/* 
+.btnn {
+  padding: 5%;
+  background-color: rgb(250, 207, 211);
+  border-radius: 10%;
+  color: #050505;
+
+
+  transition: 
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    background-color 0.25s ease,
+    color 0.25s ease;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.btnn:hover {
+  background-color: pink;
+  color: rgb(11, 11, 11);
+
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 14px 30px rgba(250, 207, 211, 0.75);
+}
+
+.btnn:active {
+
+  transform: translateY(1px) scale(0.98);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+} */
+
+.btnn {
+  padding: 5%;
+  background-color: rgb(250, 207, 211);
+  border-radius: 10%;
+  color: #050505;
+  font-weight:500;
+
+  /*  Smooth interactions */
+  transition: 
+    transform 0.5s ease,
+    box-shadow 0.5s ease,
+    background-color 0.50s ease,
+    color 0.1s ease;
+
+  /*  Always-on glow animation */
+  animation: glowPulse 3s ease-in-out infinite;
+
+  /* Initial glow */
+  box-shadow: 
+    0 0 2px rgba(250, 207, 211, 0.6),
+    0 0 2px rgba(250, 207, 211, 0.4);
+}
+
+@keyframes glowPulse {
+  0% {
+    box-shadow:
+      0 0 10px rgba(250, 207, 211, 0.4),
+      0 0 5px rgba(250, 207, 211, 0.3);
+  }
+  50% {
+    box-shadow:
+      0 0 10px rgba(250, 207, 211, 0.85),
+      0 0 10px rgba(250, 207, 211, 0.6);
+  }
+  100% {
+    box-shadow:
+      0 0 5px rgba(250, 207, 211, 0.4),
+      0 0 5px rgba(250, 207, 211, 0.3);
+  }
+}
+
+/* Keep your hover exactly as before (just stronger) */
+.btnn:hover {
+  background-color: pink;
+  color: rgb(11, 11, 11);
+  transform: translateY(-4px) scale(1.03);
+  box-shadow:
+    0 0 30px rgba(255, 182, 193, 0.95),
+    0 0 60px rgba(255, 182, 193, 0.8);
+}
+
+/* Press effect */
+.btnn:active {
+  transform: translateY(1px) scale(0.98);
+  box-shadow: 0 0 14px rgba(250, 207, 211, 0.6);
+}
+
+footer {
+  background-color: #000 !important; /* force plain black */
+}
+
+footer .text-light,
+footer i {
+  color: #fff !important; /* ensure icons and text are white */
+}
+
+footer i:hover {
+  color: #f8d210; /* optional hover color (yellow highlight) */
+}
+.pink{
+  color:rgb(214, 90, 111);
+}
+
+.input {
+  margin-bottom: 1rem;
+  height: 2.5rem;
+  width: 18rem;
+  background-color: rgb(255, 249, 241);
+  border-radius: 10%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.card {
+  transition:
+    transform 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+    filter 0.35s ease;
+  
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.15);
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow:
+    0 1rem 2.5rem rgba(0, 0, 0, 0.25),
+    0 0 1.5rem rgba(250, 207, 211, 0.4); /* soft glow */
+  filter: brightness(1.05);
+}
+
+.section{
+  
+  
+  overflow-y: auto;
+}
+
+.image-circle-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.image-circle-wrapper::before {
+  content: "";
+  position: absolute;
+  width: 370px;
+  height: 370px;
+
+  background-color: rgba(226, 210, 210, 0.1);
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(255, 211, 211, 0.1);
+
+  top: 45%;
+  left: 45%;
+  transform: translate(-38%, -60%);
+  z-index: 0;
+}
+
+.image-circle-wrapper img {
+  position: relative;
+  z-index: 1;
+  width: 70%;
+  height: auto;
+}
+
+
+

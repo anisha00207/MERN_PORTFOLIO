@@ -1,0 +1,119 @@
+.testimonial-circle {
+  width: 200px;
+  height: 200px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center horizontally */
+  justify-content: flex-start;
+  color: white;
+  flex-shrink: 0;
+  box-shadow: 0 0.5rem 1rem rgba(8, 2, 2, 0.15);
+  padding: 10px;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgb(72, 72, 72);
+}
+
+.bi {
+  font-size: 2rem;
+}
+
+.testimonial-circle span {
+  margin: 0;
+  font-size: 0.6rem;
+  font-weight: bolder;
+  margin-top: 12%;
+  background-color: rgb(72, 72, 72);
+}
+
+.testimonial-circle i {
+  font-style: italic; /* ensure italic text */
+  font-size: 0.5rem; /* more readable size */
+  margin: 4px 0;
+  background-color: rgb(72, 72, 72);
+}
+
+.testimonial-circle a {
+  font-size: 0.5rem;
+  color: #6fb0ff;
+  text-decoration: none;
+  margin-bottom: 8px;
+  background-color: rgb(72, 72, 72);
+}
+
+.testimonial-circle p {
+  font-size: 0.45rem; /* keep consistent size */
+  margin: 2px 0;
+  line-height: 1.4; /* better readability */
+  margin-top: 4%;
+  display: block; /* ensure block-level text */
+  white-space: pre-line; /* respects line breaks in HTML */
+  display: block; 
+  flex-direction: column;   /* stack lines vertically */
+  align-items: center;  
+  background-color: rgb(72, 72, 72);
+}
+
+
+
+.testimonial-circle p span {
+  font-size: 0.45rem;
+  line-height: 1.4;
+  margin: 2px 0;
+}
+
+
+
+/* Tablet */
+@media (min-width: 768px) {
+  .testimonial-circle {
+    width: 180px;
+    height: 180px;
+  }
+  
+  .testimonial-circle span {
+    font-size: 0.65rem;
+  }
+  .testimonial-circle i {
+    font-size: 0.6rem;
+  }
+  .testimonial-circle p {
+    font-size: 0.45rem;
+     display: block; 
+  flex-direction: column;   /* stack lines vertically */
+  align-items: center;
+  }
+  .testimonial-circle a {
+  font-size: 0.5rem;
+ 
+}
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .testimonial-circle {
+    width: 300px;
+    height: 300px;
+  }
+
+  .testimonial-circle span{
+    font-size: 1rem;
+  }
+  .testimonial-circle i {
+    font-size: 0.7rem;
+  }
+  .testimonial-circle p {
+    font-size: 0.8rem;
+     display: block; 
+  flex-direction: column;   /* stack lines vertically */
+  align-items: center;
+  }
+   .testimonial-circle a {
+  font-size: 0.75rem;
+ 
+}
+}
+
+
