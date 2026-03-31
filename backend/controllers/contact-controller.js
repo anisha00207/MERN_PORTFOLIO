@@ -13,15 +13,17 @@ const contactform = async (req, res) => {
       email,
       message,
     });
-    return res.status(200).send({
-      msg: "contact form submitted",
-      contactuser
-      //contactuser
+
+    return res.status(200).json({
+      message: "contact form submitted",
+      contactuser,
     });
+
   } catch (error) {
-    res.status(500).send("internal server error");
     console.log(error);
+    return res.status(500).json({
+      message: "Internal server error",
+    });
   }
 };
-module.exports = contactform;
 
