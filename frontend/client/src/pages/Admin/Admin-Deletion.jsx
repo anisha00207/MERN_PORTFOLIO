@@ -74,7 +74,7 @@ export const AdminDataList = () => {
             className="btn btn-danger btn-sm"
             onClick={() =>
               handleDelete(
-                `http://localhost:3002/api/user_data/experience/${exp._id}`,
+                `${Base_Url}/api/user_data/experience/${exp._id}`,
                 setExperiences,
                 exp._id,
                 "Experience deleted"
@@ -96,7 +96,7 @@ export const AdminDataList = () => {
             className="btn btn-danger btn-sm"
             onClick={() =>
               handleDelete(
-                `http://localhost:3002/api/skills/technology/${tech._id}`,
+                `${Base_Url}api/skills/technology/${tech._id}`,
                 setTechnologies,
                 tech._id,
                 "Technology deleted"
@@ -119,7 +119,7 @@ export const AdminDataList = () => {
             className="btn btn-danger btn-sm"
             onClick={() =>
               handleDelete(
-                `http://localhost:3002/api/cert/certification/${cert._id}`,
+                `${Base_Url}/api/cert/certification/${cert._id}`,
                 setCertifications,
                 cert._id,
                 "Certification deleted"
@@ -143,7 +143,7 @@ export const AdminDataList = () => {
             className="btn btn-danger btn-sm"
             onClick={() =>
               handleDelete(
-                `http://localhost:3002/api/data/projects/${proj._id}`,
+                `${Base_Url}api/data/projects/${proj._id}`,
                 setProjects,
                 proj._id,
                 "Project deleted"
