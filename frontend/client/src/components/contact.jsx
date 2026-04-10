@@ -6,7 +6,7 @@ import { useAuth } from "../store/auth";
 
 
 export const Contact = () => {
-  const Base_Url=useAuth();
+  const {Base_Url}=useAuth();
   //! creating a user state that stores an object of the field names 
   const [user, setUser] = useState({
     username: "",
@@ -35,18 +35,17 @@ export const Contact = () => {
 
     //! function to fetch backend route
     try {
-      const response = await fetch(`${Base_Url}/api/form/contact`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(user),//! convert the user entered data in json format
-      });
+     const response = await fetch(`${Base_Url}/api/form/contact`, {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify(user),
+});
 
-
-
-      //! if response exists
-      const res_data = await response.json();
+const text = await response.text();
+const res_data = text ? JSON.parse(text) : null;
+    
 
       if (response.ok) {
         toast.success("Message Submitted Successfully");
