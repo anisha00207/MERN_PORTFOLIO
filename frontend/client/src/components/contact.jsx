@@ -35,7 +35,7 @@ export const Contact = () => {
 
     //! function to fetch backend route
     try {
-     const response = await fetch(`${Base_Url}/api/form/contact`, {
+     const response = await fetch(`${Base_Url}/form/contact`, {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
