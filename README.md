@@ -115,6 +115,8 @@ npm run dev
 - Built with a focus on real-world applications  
 - Reflects problem-solving approach and development journey
 - integration of admin panel to avoid contact with database directly
+- live profile views
+  
 
 ---
 
