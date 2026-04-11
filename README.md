@@ -7,7 +7,7 @@ A full-stack personal portfolio built using the MERN stack to showcase my projec
 ---
 
 ##  Live Preview  (note tha backend may take 1-2 mins to get started(free hosting plan))
-🔗 https://mern-portfolio-frontend-34wb.onrender.com/
+ https://mern-portfolio-frontend-34wb.onrender.com/
 
 ---
 
@@ -19,7 +19,7 @@ The portfolio highlights my journey from building responsive UIs to working with
 
 ---
 
-## ✨ Features  
+## Features  
 
 - Responsive and modern UI  
 - Projects showcase with descriptions  
@@ -102,14 +102,14 @@ npm run dev
 
 ---
 
-## 📬 Contact  
+## Contact  
 
-- 📧 Email: anisha002july@gmail.com  
-- 💼 LinkedIn: https://linkedin.com/in/anisha-joshi15/  
+- Email: anisha002july@gmail.com  
+- LinkedIn: https://linkedin.com/in/anisha-joshi15/  
 
 ---
 
-## 🌟 What Makes This Portfolio Different  
+##  What Makes This Portfolio Different  
 
 - Combines frontend design + backend functionality  
 - Built with a focus on real-world applications  
@@ -119,6 +119,6 @@ npm run dev
 ---
 
 
-## 💡 Final Note  
+## Final Note  
 
 This portfolio is more than just a project—it's a reflection of my learning, consistency, and interest in building meaningful web applications.
