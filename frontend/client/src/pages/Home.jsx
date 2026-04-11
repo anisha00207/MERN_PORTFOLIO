@@ -40,7 +40,9 @@ export const Home = () => {
   }, [index]);
 
   //!
-
+useEffect(() => {
+  toast.warning("Backend may take a few seconds to wake up (free hosting)");
+}, []);
   return (
   <>
 
@@ -49,7 +51,7 @@ export const Home = () => {
         id="#"
       >
         <div className="container">
-          toast.warning("the backend might take some time")
+         
           <div className="row align-items-center py-5" style={{ marginTop: "5%" }}>
 
             {/* Left column */}
