@@ -1,17 +1,17 @@
 # MERN_PORTFOLIO
 
-# 💼 MERN Portfolio Website
+# MERN Portfolio Website
 
 A full-stack personal portfolio built using the MERN stack to showcase my projects, skills, and experience with a clean UI and functional backend.
 
 ---
 
-## 🚀 Live Preview  
+##  Live Preview  (note tha backend may take 1-2 mins to get started(free hosting plan))
 🔗 https://mern-portfolio-frontend-34wb.onrender.com/
 
 ---
 
-## 👨‍💻 About the Project  
+## About the Project  
 
 This is my personal fullstack MERN portfolio where I present my work, technical skills, and projects in an interactive way. It combines both frontend design and backend functionality to create a complete user experience.
 
@@ -21,16 +21,17 @@ The portfolio highlights my journey from building responsive UIs to working with
 
 ## ✨ Features  
 
-- 🌐 Responsive and modern UI  
-- 🧠 Projects showcase with descriptions  
-- 📬 backend integration  
-- 🔗 Organized sections: About, Skills, Projects, Contact , testimonials  
-- ⚡ Smooth user experience
+- Responsive and modern UI  
+- Projects showcase with descriptions  
+- backend integration  
+- Organized sections: About, Skills, Projects, Contact , testimonials  
+- Smooth user experience
+- forms for user to submit the testimonial
 - admin panel to add projects, certifications, experience , approving testimonials if submitted by anyone
 
 ---
 
-## 🛠️ Tech Stack  
+## Tech Stack  
 
 ### Frontend  
 - React.js  
@@ -52,7 +53,7 @@ The portfolio highlights my journey from building responsive UIs to working with
 
 ---
 
-## ⚙️ Installation & Setup  
+##  Installation & Setup  
 
 ### 1. Clone the repository  
 ```bash
@@ -64,12 +65,13 @@ cd MERN_PORTFOLIO
 
 #### Backend  
 ```bash
-cd server
+cd backend
 npm install
 ```
 
 #### Frontend  
 ```bash
+cd frontend
 cd client
 npm install
 ```
@@ -116,11 +118,6 @@ npm run dev
 
 ---
 
-## 📄 License  
-
-This project is open source and available under the MIT License.
-
----
 
 ## 💡 Final Note  
 
