@@ -10,6 +10,7 @@ import { FeaturedProjects } from "../components/projects";
 import { Experience } from "../components/experience";
 import { Contact } from "../components/contact";
 import { NavBar } from "../components/navbar";
+import { toast } from "react-toastify";
 
 //!
 
@@ -48,6 +49,7 @@ export const Home = () => {
         id="#"
       >
         <div className="container">
+          toast.warning("the backend might take some time")
           <div className="row align-items-center py-5" style={{ marginTop: "5%" }}>
 
             {/* Left column */}
