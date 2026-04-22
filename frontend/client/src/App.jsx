@@ -39,7 +39,7 @@ return(<>
         {/* <Route path="/register" element={<Register/>}/> */}
          <Route path="/contact" element={<Contact/>}/>
          <Route path="/admin-login" element={<AdminLogin/>}/>
-         <Route path="*" element={<Error/>}/>
+         <Route path="/*" element={<Error/>}/>
        {/* <Route path="/logout" element={<Logout/>}/> */}
        
 <Route
