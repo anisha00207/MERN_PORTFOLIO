@@ -1,6 +1,7 @@
+
 import "./styles/Testimonial.css";
 import "swiper/css";
-import { useAuth } from "../store/auth";
+import { useAuth } from "../store/auth.jsx";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 
@@ -10,7 +11,12 @@ export const Testimonial = () => {
   return (
     <div className="container " >
       <div className="  align-items-center">
-        <h2 className="pink">Testimonials</h2>
+        <div className="d-flex justify-content-between">
+          <h2 className="pink">Testimonials</h2>
+          <a href="/testimonialform" rel="add testimonial?">
+            <i className="bi bi-plus-circle text-light h-100 " ></i>
+          </a>
+        </div>
         <br />
         <br />
         <br />
@@ -40,6 +46,20 @@ export const Testimonial = () => {
                   Professional Profile
                 </a>
                 <p>{currElem.Review}</p>
+
+                <a
+                  href="/testimonialform"
+                  style={{
+                    marginTop: "auto",    //THIS IS THE KEY
+                    fontSize: "0.85rem",
+                    color: "rgba(131, 134, 138, 1)",
+                    textDecoration: "none",
+                    alignSelf: "center",
+                  }}
+                >
+                  add your testimonial?
+                </a>
+
               </div>
             </SwiperSlide>
           ))}
@@ -52,6 +72,13 @@ export const Testimonial = () => {
     </div>
   );
 };
+
+
+
+
+
+
+
 
 
 
