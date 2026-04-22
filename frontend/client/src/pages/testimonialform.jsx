@@ -89,7 +89,7 @@ const {Base_Url}=useAuth();
                         type="text"
                         className="form-control input"
                         id="designation"
-                        placeholder="Tech Lead at XYZ"
+                        placeholder=" your current or previous designation Example - Tech Lead at XYZ "
                         value={Designation}
                         onChange={(e) => setDesignation(e.target.value)}
                         required
@@ -102,7 +102,7 @@ const {Base_Url}=useAuth();
                         type="url"
                         className="form-control input"
                         id="url"
-                        placeholder="LinkedIn / GitHub URL"
+                        placeholder="LinkedIn / GitHub URL (professional profile)"
                         value={SocialMediaLink}
                         onChange={(e) => setSocialMediaLink(e.target.value)}
                         required
@@ -121,7 +121,7 @@ const {Base_Url}=useAuth();
                         value={Review}
                         onChange={(e) => setReview(e.target.value)}
                         placeholder="Write your words here in less than 250 chars"
-                        maxLength={250}          // THIS is the key line
+                        maxLength={250}          
                         required
                     />
                 </div>
