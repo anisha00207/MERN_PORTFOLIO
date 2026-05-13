@@ -114,7 +114,7 @@ const res_data = text ? JSON.parse(text) : null;
           <div className="d-flex gap-3 mt-3 justify-content-center">
             <button className="btnn p-2">Submit</button>
             <a
-              href="/files/Anisha_joshi_cv.pdf"
+              href="/files/ANISHA_JOSHI_Resume_.pdf"
               download="Anisha_Joshi_Resume.pdf"  // filename users will see
               className="btnn p-2 text-decoration-none"
             >
