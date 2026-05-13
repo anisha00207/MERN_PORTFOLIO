@@ -13,9 +13,7 @@ export const Testimonial = () => {
       <div className="  align-items-center">
         <div className="d-flex justify-content-between">
           <h2 className="pink">Testimonials</h2>
-          <a href="/testimonialform" rel="add testimonial?">
-            <i className="bi bi-plus-circle text-light h-100 " ></i>
-          </a>
+        
         </div>
         <br />
         <br />
